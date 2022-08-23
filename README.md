@@ -9,3 +9,11 @@
 
 ---
 # 程式驗證結果
+![image]https://github.com/YunTing-Lee/DrawJuliaSet/blob/main/Picture/result1.jpg)
+![image]https://github.com/YunTing-Lee/DrawJuliaSet/blob/main/Picture/result2.jpg)
+![image]https://github.com/YunTing-Lee/DrawJuliaSet/blob/main/Picture/julia1.jpg)
+![image]https://github.com/YunTing-Lee/DrawJuliaSet/blob/main/Picture/julia2.jpg)
+![image]https://github.com/YunTing-Lee/DrawJuliaSet/blob/main/Picture/julia3.jpg)
+![image]https://github.com/YunTing-Lee/DrawJuliaSet/blob/main/Picture/julia4.jpg)
+![image]https://github.com/YunTing-Lee/DrawJuliaSet/blob/main/Picture/julia5.jpg)
+![image]https://github.com/YunTing-Lee/DrawJuliaSet/blob/main/Picture/julia6.jpg)
