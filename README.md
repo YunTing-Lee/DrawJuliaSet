@@ -1,5 +1,15 @@
 # DrawJuliaSet
 
+## 開發平台
+Windows10
+
+## 開發環境
+Code::Block20.03
+
+# 說明
+先以ARM Assembly撰寫基本讀入與輸出組別、組員名字與學號加總的功能。再將原本以C語言所撰寫的drawJuliaSet函數，利用ARM Assembly來重新完成，讓在顯示完學號加總後產生Julia Set繪製的動畫
+
+
 # 程式說明
 - drawJuliaSet函數 : 用ARM組合語言寫，利用傳來的參數cX、cY、width、height來計算並決定Frame二維陣列裡每個元素的值，並以此來決定該元素投影至畫面上的Pixel顏色。
 - name 函數 : 用ARM組合語言寫，印出組別與組員名單。
