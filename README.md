@@ -4,7 +4,12 @@
 Windows10
 
 ## 開發環境
-Code::Block20.03
+QEMU Raspberry Pi Simulator
+- 此軟體可模擬Raspberry Pi的硬體功能，並搭配Raspbian作業系統與其他需要的工具與程式開發環境，以進行ARM組合語言程式與C語言程式之組譯、編譯、與除錯。
+
+## 使用流程 :
+1. 編譯 : gcc main.c id.s name.s drawJuliaSet.s -o out
+2. 執行 : ./out 
 
 # 說明
 先以ARM Assembly撰寫基本讀入與輸出組別、組員名字與學號加總的功能。再將原本以C語言所撰寫的drawJuliaSet函數，利用ARM Assembly來重新完成，讓在顯示完學號加總後產生Julia Set繪製的動畫
@@ -19,11 +24,4 @@ Code::Block20.03
 
 ---
 # 程式驗證結果
-![image](https://github.com/YunTing-Lee/DrawJuliaSet/blob/main/Picture/result1.jpg)
-![image](https://github.com/YunTing-Lee/DrawJuliaSet/blob/main/Picture/result2.jpg)
-![image](https://github.com/YunTing-Lee/DrawJuliaSet/blob/main/Picture/julia1.jpg)
-![image](https://github.com/YunTing-Lee/DrawJuliaSet/blob/main/Picture/julia2.jpg)
-![image](https://github.com/YunTing-Lee/DrawJuliaSet/blob/main/Picture/julia3.jpg)
-![image](https://github.com/YunTing-Lee/DrawJuliaSet/blob/main/Picture/julia4.jpg)
-![image](https://github.com/YunTing-Lee/DrawJuliaSet/blob/main/Picture/julia5.jpg)
-![image](https://github.com/YunTing-Lee/DrawJuliaSet/blob/main/Picture/julia6.jpg)
+![image](https://github.com/YunTing-Lee/DrawJuliaSet/blob/main/Picture/drawJuliaSet.gif)
